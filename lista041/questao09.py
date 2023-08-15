@@ -4,3 +4,10 @@ nulo
 '''
 
 num = int(input("Informe um número:"))
+
+if(num < 1):
+    print("Negativo")
+else:
+    print("Positivo")
+if(num == 0):
+    print("Nulo")
